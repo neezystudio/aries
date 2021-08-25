@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
+  AiFillSlackCircle,
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
@@ -20,20 +21,20 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              alot… 🤷‍♂️  As a self-taught developer, there’s no one to show me the ropes
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Dart & flutter frameworks, React Native, React Javascript, Node Javascript , Vue Javascript and Python  </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">SAP technologies, Web and APP technologies </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Deep Learning and Neural Networks.
                 </b>
               </i>
               <br />
@@ -43,12 +44,12 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  complicated back-end and scripting languages
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js ans Next.js</b>
+                <b className="purple"> MongoDB and Django(a framework of python)</b>
               </i>
             </p>
           </Col>
@@ -67,7 +68,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/neezystudio"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/home"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/victor-ndirangu-911420134/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/ndirangu.__/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -105,6 +106,16 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+               {/* <li className="social-icons">
+                <a
+                  href="https://app.slack.com/client/T026K4L1G75/C026K4L2EUB"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillSlackCircle/>
+                </a>
+              </li> */}
             </ul>
           </Col>
         </Row>
