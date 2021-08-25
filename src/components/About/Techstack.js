@@ -7,15 +7,17 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
+  DiDjango,
   DiGit,
+  DiDart
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { SiFlutter, SiTensorflow, SiFirebase } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiDart />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -33,10 +35,10 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+        <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

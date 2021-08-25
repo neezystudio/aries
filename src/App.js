@@ -9,6 +9,7 @@ import Resume from "./components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
+import {Helmet} from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
@@ -28,6 +29,13 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Victor Ndirangu</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                 <meta name="description" content="Victor's Space" />
+
+            </Helmet>
         <Navbar />
         <ScrollToTop />
         <Switch>

@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/tukio.jpg";
 import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import editor from "../../Assets/Projects/Shikilia.png";
+import chatify from "../../Assets/Projects/sss.jpg";
+import suicide from "../../Assets/Projects/exirgy.png";
+import bitsOfCode from "../../Assets/Projects/avant.png";
 
 function Projects() {
   return (
@@ -26,9 +26,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Samchi Systems"
+              description="Spearheaded this as a Start-up Tech company under samchi Group of companies.We help companies to drive innovation from within by presenting an easy-to-use Innovation Toolkit that promotes the process & benefits of strategic planning in a way that anyone can understand it."
+              link="https://github.com/samchisystems"
             />
           </Col>
 
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Tukio AI"
+              description="An event ecosystem mobile app, the event ecosystem provides a single platform to take care of all your event management needs with just one click! Manage events, manage tickets, as well as get instant notifications about all changes related to the event that you wish to"
+              link="https://github.com/neezystudio/tukio"
             />
           </Col>
 
@@ -46,9 +46,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Shikia-ecommerce"
+              description="3SaaS lets sellers manage product inventory, vendors manage goods and service orders, couriers track deliveries and customers view orders status – all at one place! The 3SaaS App is a next generation mobile app that integrates all sales channels into one cohesive system.
+"
+              link="https://github.com/samchisystems/shikilia-system.git"
             />
           </Col>
 
@@ -56,9 +57,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Avant-Tv"
+              description="Watch Series is an online real-time streaming site with a paid subscription model for full length movies and serials from its in-house production company AVANT Productions and other premium content producers. watchseries"
+              link="https://github.com/samchisystems/nairobarry-frontend.git"
             />
           </Col>
 
@@ -66,12 +67,12 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Exirgy"
+              description="I am personally developing an all round ERP system under SAP technologies, which will integrate all modules in a uniform manner using SAP technology. We hope this will be a one stop shop where all the customer's requirements can be solved. Each module has its own interface and structure, making integration an expensive nightmare"
+              link="https://github.com/Exirgy"
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -81,7 +82,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,49 +42,51 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="LEAD SOFTWARE ENGINEER @ SAMCHI GROUP"
+              date="December 2020- Present"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-              ]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
-              content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                " Before my interview at samchi systems, the manager told me he was impressed with my previous contributions to open source projects and believed I would be a great fit for their team. He said they were looking for someone with experience managing distributed teams and helping multiple stakeholders work together efficiently, but most importantly, someone who is passionate about working on the tech as well as the business driven approach to software",
+                // " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="JUNIOR SOFTWARE ENGINEER AT SAMCHI GROUP"
+              date="march 2020- November 2020"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Worked on creating the documentation and software quality assuarance status of previously done projects by previous developers, Javascript.",
+              ]}
+            />
+            <h3 className="resume-title">Other Activities</h3>
+            
+            <Resumecontent
+              title="Freelance React Native Developer with CrowdBotics co, USA Carlifornia"
+              content={[
+                "Operated on developing the frontend end of mobile apps, Javascript and backend APIs using Node.js",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="BSC Software Engineering "
+              date="2015 - 2019"
+              content= {["second class Honours(Upper Division"]}
+              // content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
+              title="Moringa School"
               date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              content={["Precentage: 78%"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
+              title="10TH BOARD css and scss[Murang'a university] "
+              date="2016 "
               content={["Precentage: 86%"]}
             />
             <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${spojRank}`,
                 `Current rank in HackerRank  ${hackerrank}`,
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
