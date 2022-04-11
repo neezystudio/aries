@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #FF8C32;
 }
 
 .purple {
@@ -28,7 +28,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #180A0A;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -514,13 +514,13 @@ html {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
+  background-color: #FF8C32 !important;
   border-color: #623686 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
+  background-color: #F0A500!important;
   border-color: #6d20c5d7 !important;
 }
 .btn:focus {

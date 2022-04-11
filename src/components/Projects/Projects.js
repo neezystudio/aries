@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/tukio.jpg";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+import markme from "../../Assets/Projects/markme.png";
+import kwikbasket from "../../Assets/Projects/kwikbasket.png"
 import editor from "../../Assets/Projects/Shikilia.png";
 import chatify from "../../Assets/Projects/sss.jpg";
 import suicide from "../../Assets/Projects/exirgy.png";
@@ -22,6 +23,31 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kwikbasket}
+              isBlog={false}
+              title="KwikDelivery"
+              description="A sub branch of an ERP system from KwikBasket Solutions Nairobi Kenya that helps internal teams improve their work output. Most of he systems that have been developed here are utility apps.Kwikbasket solutions is an agrucltural firm that consists of a team of passionate agriculture enthusiasts and techies committed to changing farmers' lives by improving their access to fair markets and providing high quality fresh produce to our customers"
+              
+              link="https://www.kwikbasket.com/index.php"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={markme}
+              isBlog={false}
+              title="Markme Icons"
+              description="Welcome to MarkMe Icons Entrepreneur School, the best online entrepreneur community ever!
+              Here we learn, grow our businesses and make an impact in our entrepreneurial economy.
+              Our E-Learning Resources are growing everyday, we offer Courses and Plans fit for Entrepreneurs of all ages.
+              Download our App Today, Join our Entrepreneurship Movement and learn new skills that'll help your business succeed.
+              Explore our range of courses across our 3 Main Categories
+              Business, Web World and Design"
+              
+              link="https://github.com/neezystudio/mobileapp"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}

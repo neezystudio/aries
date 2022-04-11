@@ -42,8 +42,24 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
+              title="Senior Mobile{Ios} App Developer @Kwikbasket Solutions ltd"
+              date="December 2021- Present"
+              content={[
+                " Skilled and efficient iOS Developer/Android with 3 years of experience with Dart and Flutter framework creating unique and modern applications for automating business proceses",
+                // " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+              ]}
+            />
+              <Resumecontent
+              title="SalesForce Architect with Oremnda Infotech inc"
+              date="Dec 2021"
+              content={[
+                " Enrolled in a paid apprenticeship course with Oremnda Infotech USA TO help design and deliver solutions for enterprise-grade customers using Salesforce products",
+                // " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+              ]}
+            />
+            <Resumecontent
               title="LEAD SOFTWARE ENGINEER @ SAMCHI GROUP"
-              date="December 2020- Present"
+              date="March 2020- Dec 2021"
               content={[
                 " Before my interview at samchi systems, the manager told me he was impressed with my previous contributions to open source projects and believed I would be a great fit for their team. He said they were looking for someone with experience managing distributed teams and helping multiple stakeholders work together efficiently, but most importantly, someone who is passionate about working on the tech as well as the business driven approach to software",
                 // " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
@@ -67,6 +83,15 @@ function Resume() {
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
+            <Resumecontent
+              title="SalesForce Architect"
+              date = "2021-2022"
+              content={[
+                
+                "Top Performer",
+                "Participant in a 3 Mos apprenticeship programme",
+              ]}
+            />
             <Resumecontent
               title="BSC Software Engineering "
               date="2015 - 2019"
@@ -92,6 +117,7 @@ function Resume() {
                 "Participant in Hack-A-Bit 2019",
               ]}
             />
+            
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
